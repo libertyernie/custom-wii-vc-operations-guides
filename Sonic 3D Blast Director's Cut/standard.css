@@ -1,0 +1,726 @@
+--- NES Template - UPDATED: 11/19/2006 ---
+
+a:link {color:#FFFFFF;text-decoration:none;}
+a:visited {color:#FFFFFF;text-decoration:none;}
+a:active {color:#FFFFFF;text-decoration:none;}
+a:hover {color:#FFFFFF;text-decoration:none;}
+#TopBar {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:608px;
+	height:96px;
+	z-index:1;
+}
+#TopBarTextOne {
+	position:absolute;
+	left:30px;
+	top:30px;
+	z-index:2;
+}
+#TopBarTextTwo {
+	position:absolute;
+	left:30px;
+	top:68px;
+	z-index:3;
+}
+#TopBarLogo {
+	position:absolute;
+	left:425px;
+	top:26px;
+	z-index:4;
+}
+#BottomBarMain {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:608px;
+	height:65px;
+	z-index:1;
+}
+#BottomTable {
+	position:absolute;
+	left:30px;
+	top:8px;
+	z-index:2;
+}
+#buttonmargin {
+	margin-left: 20px;
+}
+#barmargin {
+	margin-left: -5px;
+}
+#Button_a{
+	position:absolute;
+	left:25px;
+	top:6px;
+	z-index:1;
+}
+#Button_b{
+	position:absolute;
+	left:307px;
+	top:6px;
+	z-index:2;
+}
+#Button_c{
+	position:absolute;
+	left:25px;
+	top:64px;
+	z-index:3;
+}
+#Button_d{
+	position:absolute;
+	left:307px;
+	top:64px;
+	z-index:4;
+}
+#Button_e{
+	position:absolute;
+	left:25px;
+	top:122px;
+	z-index:5;
+}
+#Button_f{
+	position:absolute;
+	left:307px;
+	top:122px;
+	z-index:6;
+}
+#Button_g{
+	position:absolute;
+	left:25px;
+	top:180px;
+	z-index:7;
+}
+#Button_h{
+	position:absolute;
+	left:307px;
+	top:180px;
+	z-index:8;
+}
+#Button_i{
+	position:absolute;
+	left:25px;
+	top:238px;
+	z-index:9;
+}
+#Button_j{
+	position:absolute;
+	left:307px;
+	top:238px;
+	z-index:10;
+}
+#Button_k{
+	position:absolute;
+	left:25px;
+	top:296px;
+	z-index:11;
+}
+#Button_l{
+	position:absolute;
+	left:307px;
+	top:296px;
+	z-index:12;
+}
+#Button_m{
+	position:absolute;
+	left:25px;
+	top:354px;
+	z-index:13;
+}
+#Button_n{
+	position:absolute;
+	left:307px;
+	top:354px;
+	z-index:14;
+}
+#Button_o{
+	position:absolute;
+	left:25px;
+	top:412px;
+	z-index:15;
+}
+#Button_p{
+	position:absolute;
+	left:307px;
+	top:412px;
+	z-index:16;
+}
+#Button_q{
+	position:absolute;
+	left:25px;
+	top:470px;
+	z-index:17;
+}
+#Button_r{
+	position:absolute;
+	left:307px;
+	top:470px;
+	z-index:18;
+}
+#Button_s{
+	position:absolute;
+	left:25px;
+	top:528px;
+	z-index:19;
+}
+#Button_t{
+	position:absolute;
+	left:307px;
+	top:528px;
+	z-index:20;
+}
+#ContentButtonNumberPosition_a{
+	position:absolute;
+	left:48px;
+	top:7px;
+	z-index:21;
+}
+#ContentButtonNumberPosition_b{
+	position:absolute;
+	left:330px;
+	top:7px;
+	z-index:22;
+}
+#ContentButtonNumberPosition_c{
+	position:absolute;
+	left:48px;
+	top:65px;
+	z-index:23;
+}
+#ContentButtonNumberPosition_d{
+	position:absolute;
+	left:330px;
+	top:65px;
+	z-index:24;
+}
+#ContentButtonNumberPosition_e{
+	position:absolute;
+	left:48px;
+	top:123px;
+	z-index:25;
+}
+#ContentButtonNumberPosition_f{
+	position:absolute;
+	left:330px;
+	top:123px;
+	z-index:26;
+}
+#ContentButtonNumberPosition_g{
+	position:absolute;
+	left:48px;
+	top:181px;
+	z-index:27;
+}
+#ContentButtonNumberPosition_h{
+	position:absolute;
+	left:330px;
+	top:181px;
+	z-index:28;
+}
+#ContentButtonNumberPosition_i{
+	position:absolute;
+	left:48px;
+	top:239px;
+	z-index:29;
+}
+#ContentButtonNumberPosition_j{
+	position:absolute;
+	left:317px;
+	top:239px;
+	z-index:30;
+}
+#ContentButtonNumberPosition_k{
+	position:absolute;
+	left:35px;
+	top:297px;
+	z-index:31;
+}
+#ContentButtonNumberPosition_l{
+	position:absolute;
+	left:317px;
+	top:297px;
+	z-index:32;
+}
+#ContentButtonNumberPosition_m{
+	position:absolute;
+	left:35px;
+	top:355px;
+	z-index:33;
+}
+#ContentButtonNumberPosition_n{
+	position:absolute;
+	left:317px;
+	top:355px;
+	z-index:34;
+}
+#ContentButtonNumberPosition_o{
+	position:absolute;
+	left:35px;
+	top:413px;
+	z-index:35;
+}
+#ContentButtonNumberPosition_p{
+	position:absolute;
+	left:317px;
+	top:413px;
+	z-index:36;
+}
+#ContentButtonNumberPosition_q{
+	position:absolute;
+	left:35px;
+	top:471px;
+	z-index:37;
+}
+#ContentButtonNumberPosition_r{
+	position:absolute;
+	left:317px;
+	top:471px;
+	z-index:38;
+}
+#ContentButtonNumberPosition_s{
+	position:absolute;
+	left:35px;
+	top:529px;
+	z-index:39;
+}
+#ContentButtonNumberPosition_t{
+	position:absolute;
+	left:317px;
+	top:529px;
+	z-index:40;
+}
+#ButtonText_a{
+	position:absolute;
+	left:95px;
+	top:17px;
+	z-index:41;
+}
+#ButtonText_b{
+	position:absolute;
+	left:377px;
+	top:17px;
+	z-index:42;
+}
+#ButtonText_c{
+	position:absolute;
+	left:95px;
+	top:75px;
+	z-index:43;
+}
+#ButtonText_d{
+	position:absolute;
+	left:377px;
+	top:75px;
+	z-index:44;
+}
+#ButtonText_e{
+	position:absolute;
+	left:95px;
+	top:133px;
+	z-index:45;
+}
+#ButtonText_f{
+	position:absolute;
+	left:377px;
+	top:133px;
+	z-index:46;
+}
+#ButtonText_g{
+	position:absolute;
+	left:95px;
+	top:191px;
+	z-index:47;
+}
+#ButtonText_h{
+	position:absolute;
+	left:377px;
+	top:191px;
+	z-index:48;
+}
+#ButtonText_i{
+	position:absolute;
+	left:95px;
+	top:249px;
+	z-index:49;
+}
+#ButtonText_j{
+	position:absolute;
+	left:377px;
+	top:249px;
+	z-index:50;
+}
+#ButtonText_k{
+	position:absolute;
+	left:95px;
+	top:307px;
+	z-index:51;
+}
+#ButtonText_l{
+	position:absolute;
+	left:377px;
+	top:307px;
+	z-index:52;
+}
+#ButtonText_m{
+	position:absolute;
+	left:95px;
+	top:365px;
+	z-index:53;
+}
+#ButtonText_n{
+	position:absolute;
+	left:377px;
+	top:365px;
+	z-index:54;
+}
+#ButtonText_o{
+	position:absolute;
+	left:95px;
+	top:423px;
+	z-index:55;
+}
+#ButtonText_p{
+	position:absolute;
+	left:377px;
+	top:423px;
+	z-index:56;
+}
+#ButtonText_q{
+	position:absolute;
+	left:95px;
+	top:481px;
+	z-index:57;
+}
+#ButtonText_r{
+	position:absolute;
+	left:377px;
+	top:481px;
+	z-index:58;
+}
+#ButtonText_s{
+	position:absolute;
+	left:95px;
+	top:539px;
+	z-index:59;
+}
+#ButtonText_t{
+	position:absolute;
+	left:377px;
+	top:539px;
+	z-index:60;
+}
+#Button_a_link{
+	position:absolute;
+	left:20px;
+	top:6px;
+	z-index:61;
+}
+#Button_b_link{
+	position:absolute;
+	left:310px;
+	top:6px;
+	z-index:62;
+}
+#Button_c_link{
+	position:absolute;
+	left:20px;
+	top:64px;
+	z-index:63;
+}
+#Button_d_link{
+	position:absolute;
+	left:307px;
+	top:64px;
+	z-index:64;
+}
+#Button_e_link{
+	position:absolute;
+	left:20px;
+	top:122px;
+	z-index:65;
+}
+#Button_f_link{
+	position:absolute;
+	left:307px;
+	top:122px;
+	z-index:66;
+}
+#Button_g_link{
+	position:absolute;
+	left:20px;
+	top:180px;
+	z-index:67;
+}
+#Button_h_link{
+	position:absolute;
+	left:307px;
+	top:180px;
+	z-index:68;
+}
+#Button_i_link{
+	position:absolute;
+	left:20px;
+	top:238px;
+	z-index:69;
+}
+#Button_j_link{
+	position:absolute;
+	left:307px;
+	top:238px;
+	z-index:70;
+}
+#Button_k_link{
+	position:absolute;
+	left:20px;
+	top:296px;
+	z-index:71;
+}
+#Button_l_link{
+	position:absolute;
+	left:307px;
+	top:296px;
+	z-index:72;
+}
+#Button_m_link{
+	position:absolute;
+	left:20px;
+	top:354px;
+	z-index:73;
+}
+#Button_n_link{
+	position:absolute;
+	left:307px;
+	top:354px;
+	z-index:74;
+}
+#Button_o_link{
+	position:absolute;
+	left:20px;
+	top:412px;
+	z-index:75;
+}
+#Button_p_link{
+	position:absolute;
+	left:307px;
+	top:412px;
+	z-index:76;
+}
+#Button_q_link{
+	position:absolute;
+	left:20px;
+	top:470px;
+	z-index:77;
+}
+#Button_r_link{
+	position:absolute;
+	left:307px;
+	top:470px;
+	z-index:78;
+}
+#Button_s_link{
+	position:absolute;
+	left:20px;
+	top:528px;
+	z-index:79;
+}
+#Button_t_link{
+	position:absolute;
+	left:307px;
+	top:528px;
+	z-index:80;
+}
+#TopBarLeft {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:400px;
+	height:66px;
+	z-index:2;
+}
+#TopBarRight {
+	position:absolute;
+	left:362px;
+	top:0px;
+	width:200px;
+	height:72px;
+	z-index:1;
+}
+#ButtonTextPosition {
+	position:absolute;
+	left:95px;
+	top:30px;
+	z-index:3;
+	width: 300px;
+}
+#ButtonNumberPosition {
+	position:absolute;
+	left:25px;
+	top:23px;
+	z-index:4;
+}
+#ContentsTable {
+	position:absolute;
+	left:27px;
+	top:8px;
+	width:535px;
+	z-index:1;
+}
+#MainTable {
+	position:absolute;
+	left:5px;
+	top:75px;
+	width:535px;
+	z-index:1;
+}
+#AgeRatingMainTable {
+	position:absolute;
+	left:5px;
+	top:5px;
+	width:535px;
+	z-index:1;
+}
+#co_1{
+	position:absolute;
+	left:45px;
+	top:145px;
+	z-index:84;
+}
+#co_2{
+	position:absolute;
+	left:230px;
+	top:130px;
+	z-index:85;
+}
+#co_3{
+	position:absolute;
+	left:415px;
+	top:140px;
+	z-index:86;
+}
+#co_4{
+	position:absolute;
+	left:45px;
+	top:325px;
+	z-index:87;
+}
+#co_5{
+	position:absolute;
+	left:230px;
+	top:340px;
+	z-index:88;
+}
+#co_6{
+	position:absolute;
+	left:415px;
+	top:305px;
+	z-index:89;
+}
+.HeadLine {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 16px;
+	font-weight: bold;
+	color: #787878;
+}
+.ButtonText {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 18pt;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.TopBarTextOne {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 18pt;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.TopBarTextTwo {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 14pt;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.ContentButtonText {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 15pt;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.ButtonNumber {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 26pt;
+	font-weight: bold;
+	color: #4396df;
+}
+.MainText {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 16px;
+	color: #787878;
+	text-align: left;
+	vertical-align: top;
+}
+.MainText_small {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 15px;
+	color: #787878;
+	text-align: left;
+	vertical-align: top;
+}
+.MainText_large {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 18px;
+	font-weight: bold;
+	color: #787878;
+}
+.BottomBarText {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.StdLink {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 16px;
+	color: #0000FF;
+	text-align: left;
+}
+.Adress {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 16px;
+	color: #787878;
+	font-weight: bold;	
+	text-align: center;
+	vertical-align: top;
+}
+.Copyright {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 14px;
+	color: #787878;
+	text-align: left;
+	vertical-align: top;
+}
+.Warning_Red {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 16px;
+	color: #ff0000;
+	font-weight: bold;	
+	vertical-align: top;
+}
+.Nugget {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.NuggetSmall {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 15px;
+	color: #FFFFFF;
+	text-align: left;
+}
+.NuggetLarge {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 18px;
+	color: #FFFFFF;
+	font-weight: bold;	
+}
